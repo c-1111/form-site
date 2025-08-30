@@ -1,0 +1,208 @@
+[
+    {
+        "id": 1,
+        "titulo": "Form Airlines",
+        "imagen": "/logo.png",
+        "descripcion": "Cada vuelo abre caminos entre ciudades, culturas y experiencias compartidas.",
+        "imagenesExtras": [
+            "/nike1.png",
+            "/nike2.png"
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "Form Outdoors",
+        "imagen": "/logo.png",
+        "descripcion": "Equipo diseñado para acompañar aventuras al aire libre y encuentros con la naturaleza.",
+        "imagenesExtras": [
+            "/adidas1.png"
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "Form Oil",
+        "imagen": "/logo.png",
+        "descripcion": "Energía que impulsa motores, industrias y el movimiento cotidiano del mundo.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 4,
+        "titulo": "Form Logistics",
+        "imagen": "/logo.png",
+        "descripcion": "Conexiones que hacen posible que cada envío llegue a destino con precisión.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 5,
+        "titulo": "Form University",
+        "imagen": "/logo.png",
+        "descripcion": "Un espacio donde se forman conocimientos, vínculos y futuros.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 6,
+        "titulo": "Form Telecom",
+        "imagen": "/logo.png",
+        "descripcion": "Redes que transforman lo invisible en comunicación y cercanía.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 7,
+        "titulo": "Form Infrastructures",
+        "imagen": "/logo.png",
+        "descripcion": "Construcciones que sostienen comunidades y preparan el camino del mañana.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 8,
+        "titulo": "Form Technology",
+        "imagen": "/logo.png",
+        "descripcion": "Soluciones que acercan el futuro y simplifican lo cotidiano.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 9,
+        "titulo": "Form Heavy Industries",
+        "imagen": "/logo.png",
+        "descripcion": "Estructuras y maquinaria que garantizan fuerza, precisión y resistencia.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 10,
+        "titulo": "Form Records",
+        "imagen": "/logo.png",
+        "descripcion": "Un sello que amplifica sonidos auténticos y propuestas distintas.",
+        "imagenesExtras": [
+            "/nike1.png",
+            "/nike2.png"
+        ]
+    },
+    {
+        "id": 11,
+        "titulo": "Form Pharma",
+        "imagen": "/logo.png",
+        "descripcion": "Ciencia aplicada al cuidado, la prevención y el bienestar diario.",
+        "imagenesExtras": [
+            "/adidas1.png"
+        ]
+    },
+    {
+        "id": 12,
+        "titulo": "Form Defense",
+        "imagen": "/logo.png",
+        "descripcion": "Sistemas desarrollados para proteger vidas, territorios y estabilidad.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 13,
+        "titulo": "Form Racing",
+        "imagen": "/logo.png",
+        "descripcion": "Velocidad y precisión que llevan la competición al límite.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 14,
+        "titulo": "Form Cola",
+        "imagen": "/logo.png",
+        "descripcion": "Un sabor que acompaña momentos compartidos y hace especial lo cotidiano.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 15,
+        "titulo": "Form Dine-In",
+        "imagen": "/logo.png",
+        "descripcion": "Un espacio donde los sabores se convierten en encuentros y recuerdos.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 16,
+        "titulo": "Form Bank",
+        "imagen": "/logo.png",
+        "descripcion": "Institución que respalda proyectos, esfuerzos y decisiones clave.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 17,
+        "titulo": "Form Insurance",
+        "imagen": "/logo.png",
+        "descripcion": "Protección pensada para dar seguridad en los momentos importantes.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 18,
+        "titulo": "Form Food Service",
+        "imagen": "/logo.png",
+        "descripcion": "Un punto de acceso sencillo a lo esencial de la vida diaria.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 19,
+        "titulo": "Form Luxury",
+        "imagen": "/logo.png",
+        "descripcion": "Detalles convertidos en experiencias únicas y exclusivas.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 20,
+        "titulo": "Form Athletics",
+        "imagen": "/logo.png",
+        "descripcion": "Ropa y equipamiento que impulsan el movimiento y la superación.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 21,
+        "titulo": "Form Skate",
+        "imagen": "/logo.png",
+        "descripcion": "Una cultura urbana expresada sobre ruedas, con estilo y rebeldía.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 22,
+        "titulo": "Form Summit",
+        "imagen": "/logo.png",
+        "descripcion": "Un festival donde miles de voces y ritmos laten al unísono.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 23,
+        "titulo": "Form Hotel",
+        "imagen": "/logo.png",
+        "descripcion": "Un refugio diseñado para el descanso y la hospitalidad en cada viaje.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 24,
+        "titulo": "Form Audiovisual",
+        "imagen": "/logo.png",
+        "descripcion": "Historias contadas con imágenes que emocionan, transforman y permanecen.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 25,
+        "titulo": "Form Apparel",
+        "imagen": "/logo.png",
+        "descripcion": "Prendas que expresan identidad, estilo y autenticidad.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 26,
+        "titulo": "Form Boys",
+        "imagen": "/logo.png",
+        "descripcion": "Un movimiento cultural que une música, energía y comunidad global.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 27,
+        "titulo": "Form Energy",
+        "imagen": "/logo.png",
+        "descripcion": "Un impulso inmediato para seguir adelante con intensidad.",
+        "imagenesExtras": []
+    },
+    {
+        "id": 28,
+        "titulo": "Form F.C.",
+        "imagen": "/logo.png",
+        "descripcion": "Pasión colectiva que une generaciones dentro y fuera del estadio.",
+        "imagenesExtras": []
+    }
+]
