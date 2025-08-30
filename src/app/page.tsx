@@ -7,6 +7,9 @@ import Nav from './components/Nav'
 import SplashScreen from './components/SplashScreen'
 import marcasJson from './data/marcas.json'
 import { Marca } from './lib/types'
+import Footer from './components/Footer'
+import About from './components/About'
+import Contact from './components/Conctact'
 
 
 export default function Home() {
@@ -23,7 +26,7 @@ export default function Home() {
   const marcas: Marca[] = marcasJson
 
   return (
-    <main className="">
+    <main className=" scroll-smooth">
       <SplashScreen />
       <div className=" flex w-full justify-center"><Nav />
       </div>
@@ -32,6 +35,10 @@ export default function Home() {
           <Card key={marca.id} marca={marca} onClick={handleCardClick} />
         ))}
       </div>
+      <About />
+      <Contact />
+
+      <Footer />
 
       <Overlay marca={selectedMarca} onClose={handleCloseOverlay} />
     </main>

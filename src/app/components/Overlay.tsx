@@ -11,27 +11,29 @@ export default function Overlay({ marca, onClose }: OverlayProps) {
 
     return (
         <div
-            className="fixed inset-0 backdrop-blur-sm bg-opacity-70 flex items-center justify-center z-50"
+            className="fixed inset-0 backdrop-blur-sm bg-opacity-40 flex items-center justify-center z-30"
             onClick={onClose}
         >
             <div
-                className="bg-white p-8 rounded-lg relative"
+                className="rounded-lg relative w-full px-40"
                 onClick={e => e.stopPropagation()}
             >
                 {/* BOTÓN CERRAR */}
                 <button
-                    className="absolute top-2 right-2 text-xl font-bold cursor-pointer"
+                    className="absolute top-[-200] right-40 cursor-pointer"
                     onClick={onClose}
                 >
-                    X
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none" viewBox="0 0 65 65">
+                        <path fill="#5E5E5E" d="M59.106 65 32.521 38.39 5.936 65 0 59.068 26.627 32.5 0 5.932 5.936 0 32.52 26.61 59.106.042 65 5.932 38.415 32.5 65 59.068 59.106 65Z" />
+                    </svg>
+
                 </button>
-                <div className="flex">
+                <div className="flex justify-between w-full gap-12">
                     <div className="img_holder relative max-w-[500px]">
-                        <div className="project_image_overlay absolute inset-0 bg-[#5E5E5E] mix-blend-screen pointer-events-none"></div>
                         <img src={marca.imagen} alt={marca.titulo} className="mb-4 max-w-[500px]" /></div>
                     <div className="flex flex-col ml-4">
-                        <h2 className="text-2xl font-bold mb-2">{marca.titulo}</h2>
-                        <p>{marca.descripcion}</p>
+                        {/* <h2 className="text-2xl font-bold mb-2">{marca.titulo}</h2> */}
+                        <p className='texto-marca max-w-[60ch]'>{marca.descripcion}</p>
                     </div>
                 </div>
 
