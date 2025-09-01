@@ -40,6 +40,14 @@
   letter-spacing: -5%;
 }
 
+input, textarea {
+decoration: none;
+outline: none;
+scrollbar-width: none;
+control-size: none;
+resize: none;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;

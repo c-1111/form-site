@@ -26,17 +26,18 @@ export default function Home() {
   const marcas: Marca[] = marcasJson
 
   return (
-    <main className=" scroll-smooth">
+    <main className="scroll-smooth" id='top'>
       <SplashScreen />
-      <div className=" flex w-full justify-center"><Nav />
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 items-center justify-center gap-20 pt-20 px-12 pb-40">
+      <div className=" flex w-full justify-center"><Nav /></div>
+      <div id='companies' className="grid grid-cols-1 md:grid-cols-4 items-center justify-center gap-20 pt-20 px-12 pb-40">
         {marcas.map(marca => (
           <Card key={marca.id} marca={marca} onClick={handleCardClick} />
         ))}
       </div>
-      <About />
-      <Contact />
+
+      <div id='about'><About /></div>
+
+      <div id='contact'> <Contact /></div>
 
       <Footer />
 
