@@ -26,7 +26,7 @@ export default function Home() {
   const marcas: Marca[] = marcasJson
 
   return (
-    <main className="scroll-smooth" id='top'>
+    <main className="scroll-smooth bg-white" id='top'>
       <SplashScreen />
       <div className=" flex w-full justify-center"><Nav /></div>
       <div id='companies' className="grid grid-cols-1 md:grid-cols-4 items-center justify-center gap-20 pt-20 px-12 pb-40">
