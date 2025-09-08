@@ -30,10 +30,9 @@ export default function Contact() {
     };
 
     return (
-        <div className="px-12 pb-60">
-            <div className="title text-2xl font-bold">Contacto</div>
-
-            <form onSubmit={handleSubmit} className="form flex gap-20 mt-12">
+        <div className="md:px-12 px-4 md:pb-60 pb-20 pt-24 md:pt-0">
+            <div className="font-sans text-3xl font-semibold pb-12 md:pt-0">Contacto</div>
+            <form onSubmit={handleSubmit} className="form flex md:flex-row flex-col md:gap-20 gap-8 md:mt-12">
                 <div className="flex flex-col gap-4 w-64">
                     <div className="flex flex-col text-sm text-[#BFBFBF]">
                         Nombre
@@ -64,8 +63,8 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <div className="flex flex-col gap-4 items-end h-full justify-between">
-                    <div className="flex flex-col w-[800px] text-[#BFBFBF]">
+                <div className="flex flex-col gap-4 md:items-end h-full justify-between">
+                    <div className="flex flex-col md:w-[800px] text-[#BFBFBF]">
                         Mensaje
                         <textarea
                             className="my-4 border-b text-[#5E5E5E] h-6 resize-none"
@@ -74,7 +73,7 @@ export default function Contact() {
                         />
                     </div>
 
-                    <div className="mt-32">
+                    <div className="md:mt-32 mt-12">
                         {status ? (
                             <p className="font-medium text-4xl">{status}</p>
                         ) : (

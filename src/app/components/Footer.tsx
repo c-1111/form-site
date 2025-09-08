@@ -2,9 +2,9 @@
 
 export default function Footer() {
     return (
-        <div className="flex flex-col w-full items-center gap-24 ">
-            <div className="bottom-0 flex w-full items-center justify-between py-3 text-xs" >
-                <div className="left flex gap-8 pl-12">
+        <div className="flex w-full items-center gap-24 ">
+            <div className="bottom-0 flex-row gap-4 items-end flex w-full md:items-center justify-between px-2 py-3 text-xs" >
+                <div className="left flex flex-col gap-1 md:flex-row md:gap-8 md:pl-12">
                     <div className="nav_item cursor-pointer">Privacy</div>
                     <div className="nav_item cursor-pointer">Careers</div>
                     <div className="nav_item cursor-pointer">Terms</div>

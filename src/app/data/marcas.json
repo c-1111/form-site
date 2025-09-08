@@ -3,25 +3,23 @@
         "id": 1,
         "titulo": "Form Airlines",
         "imagen": "/webp/airlines.webp",
+        "color": "/webp/airlines_color.webp",
         "descripcion": "Cada vuelo abre caminos entre ciudades, culturas y experiencias compartidas.",
-        "imagenesExtras": [
-            "/nike1.png",
-            "/nike2.png"
-        ]
+        "imagenesExtras": []
     },
     {
         "id": 2,
         "titulo": "Form Outdoors",
         "imagen": "/webp/outdoors.webp",
+        "color": "/webp/outdoors_color.webp",
         "descripcion": "Equipo diseñado para acompañar aventuras al aire libre y encuentros con la naturaleza.",
-        "imagenesExtras": [
-            "/adidas1.png"
-        ]
+        "imagenesExtras": []
     },
     {
         "id": 3,
         "titulo": "Form Oil",
         "imagen": "/webp/oil.webp",
+        "color": "/webp/oil_color.webp",
         "descripcion": "Energía que impulsa motores, industrias y el movimiento cotidiano del mundo.",
         "imagenesExtras": []
     },
@@ -29,6 +27,7 @@
         "id": 4,
         "titulo": "Form Logistics",
         "imagen": "/webp/logistics.webp",
+        "color": "/webp/logistics_color.webp",
         "descripcion": "Conexiones que hacen posible que cada envío llegue a destino con precisión.",
         "imagenesExtras": []
     },
@@ -43,6 +42,7 @@
         "id": 6,
         "titulo": "Form Telecom",
         "imagen": "/webp/telecom.webp",
+        "color": "/webp/telecom_color.webp",
         "descripcion": "Redes que transforman lo invisible en comunicación y cercanía.",
         "imagenesExtras": []
     },
@@ -50,6 +50,7 @@
         "id": 7,
         "titulo": "Form Infrastructures",
         "imagen": "/webp/infrastructures.webp",
+        "color": "/webp/infrastructures_color.webp",
         "descripcion": "Construcciones que sostienen comunidades y preparan el camino del mañana.",
         "imagenesExtras": []
     },
@@ -57,6 +58,7 @@
         "id": 8,
         "titulo": "Form Technology",
         "imagen": "/webp/labs.webp",
+        "color": "/webp/labs_color.webp",
         "descripcion": "Soluciones que acercan el futuro y simplifican lo cotidiano.",
         "imagenesExtras": []
     },
@@ -64,6 +66,7 @@
         "id": 9,
         "titulo": "Form Heavy Industries",
         "imagen": "/webp/heavyIndustries.webp",
+        "color": "/webp/heavyIndustries_color.webp",
         "descripcion": "Estructuras y maquinaria que garantizan fuerza, precisión y resistencia.",
         "imagenesExtras": []
     },
@@ -71,20 +74,17 @@
         "id": 10,
         "titulo": "Form Records",
         "imagen": "/webp/records.webp",
+        "color": "/webp/records_color.webp",
         "descripcion": "Un sello que amplifica sonidos auténticos y propuestas distintas.",
-        "imagenesExtras": [
-            "/nike1.png",
-            "/nike2.png"
-        ]
+        "imagenesExtras": []
     },
     {
         "id": 11,
         "titulo": "Form Pharma",
         "imagen": "/webp/pharma.webp",
+        "color": "/webp/pharma_color.webp",
         "descripcion": "Ciencia aplicada al cuidado, la prevención y el bienestar diario.",
-        "imagenesExtras": [
-            "/adidas1.png"
-        ]
+        "imagenesExtras": []
     },
     {
         "id": 12,
@@ -97,6 +97,7 @@
         "id": 13,
         "titulo": "Form Racing",
         "imagen": "/webp/racing.webp",
+        "color": "/webp/racing_color.webp",
         "descripcion": "Velocidad y precisión que llevan la competición al límite.",
         "imagenesExtras": []
     },
@@ -104,6 +105,7 @@
         "id": 14,
         "titulo": "Form Cola",
         "imagen": "/webp/cola.webp",
+        "color": "/webp/cola_color.webp",
         "descripcion": "Un sabor que acompaña momentos compartidos y hace especial lo cotidiano.",
         "imagenesExtras": []
     },
@@ -111,6 +113,7 @@
         "id": 15,
         "titulo": "Form Dine-In",
         "imagen": "/webp/dineIn.webp",
+        "color": "/webp/dineIn_color.webp",
         "descripcion": "Un espacio donde los sabores se convierten en encuentros y recuerdos.",
         "imagenesExtras": []
     },
@@ -118,6 +121,7 @@
         "id": 16,
         "titulo": "Form Bank",
         "imagen": "/webp/bank.webp",
+        "color": "/webp/bank_color.webp",
         "descripcion": "Institución que respalda proyectos, esfuerzos y decisiones clave.",
         "imagenesExtras": []
     },
@@ -125,6 +129,7 @@
         "id": 17,
         "titulo": "Form Insurance",
         "imagen": "/webp/insurance.webp",
+        "color": "/webp/insurance_color.webp",
         "descripcion": "Protección pensada para dar seguridad en los momentos importantes.",
         "imagenesExtras": []
     },
@@ -132,6 +137,7 @@
         "id": 18,
         "titulo": "Form Food Service",
         "imagen": "/webp/foodService.webp",
+        "color": "/webp/foodService_color.webp",
         "descripcion": "Un punto de acceso sencillo a lo esencial de la vida diaria.",
         "imagenesExtras": []
     },
@@ -146,6 +152,7 @@
         "id": 20,
         "titulo": "Form Athletics",
         "imagen": "/webp/athletics.webp",
+        "color": "/webp/athletics_color.webp",
         "descripcion": "Ropa y equipamiento que impulsan el movimiento y la superación.",
         "imagenesExtras": []
     },
@@ -153,6 +160,7 @@
         "id": 21,
         "titulo": "Form Skate",
         "imagen": "/webp/skate.webp",
+        "color": "/webp/skate_color.webp",
         "descripcion": "Una cultura urbana expresada sobre ruedas, con estilo y rebeldía.",
         "imagenesExtras": []
     },
@@ -160,6 +168,7 @@
         "id": 22,
         "titulo": "Form Summit",
         "imagen": "/webp/summit.webp",
+        "color": "/webp/summit_color.webp",
         "descripcion": "Un festival donde miles de voces y ritmos laten al unísono.",
         "imagenesExtras": []
     },
@@ -167,6 +176,7 @@
         "id": 23,
         "titulo": "Form Hotel",
         "imagen": "/webp/hotel.webp",
+        "color": "/webp/hotel_color.webp",
         "descripcion": "Un refugio diseñado para el descanso y la hospitalidad en cada viaje.",
         "imagenesExtras": []
     },
@@ -195,6 +205,7 @@
         "id": 27,
         "titulo": "Form Energy",
         "imagen": "/webp/enrgy.webp",
+        "color": "/webp/enrgy_color.webp",
         "descripcion": "Un impulso inmediato para seguir adelante con intensidad.",
         "imagenesExtras": []
     },
