@@ -35,6 +35,7 @@
         "id": 5,
         "titulo": "Form University",
         "imagen": "/webp/university.webp",
+        "color": "/webp/",
         "descripcion": "Un espacio donde se forman conocimientos, vínculos y futuros.",
         "imagenesExtras": []
     },
@@ -90,6 +91,7 @@
         "id": 12,
         "titulo": "Form Defense",
         "imagen": "/webp/defense.webp",
+        "color": "/webp/",
         "descripcion": "Sistemas desarrollados para proteger vidas, territorios y estabilidad.",
         "imagenesExtras": []
     },
@@ -145,6 +147,7 @@
         "id": 19,
         "titulo": "Form Luxury",
         "imagen": "/webp/luxury.webp",
+        "color": "/webp/",
         "descripcion": "Detalles convertidos en experiencias únicas y exclusivas.",
         "imagenesExtras": []
     },
@@ -184,6 +187,7 @@
         "id": 24,
         "titulo": "Form Audiovisual",
         "imagen": "/webp/audiovisual.webp",
+        "color": "/webp/",
         "descripcion": "Historias contadas con imágenes que emocionan, transforman y permanecen.",
         "imagenesExtras": []
     },
@@ -191,6 +195,7 @@
         "id": 25,
         "titulo": "Form Apparel",
         "imagen": "/webp/apparel.webp",
+        "color": "/webp/",
         "descripcion": "Prendas que expresan identidad, estilo y autenticidad.",
         "imagenesExtras": []
     },
@@ -198,6 +203,7 @@
         "id": 26,
         "titulo": "Form Boys",
         "imagen": "/webp/kpop.webp",
+        "color": "/webp/",
         "descripcion": "Un movimiento cultural que une música, energía y comunidad global.",
         "imagenesExtras": []
     },
@@ -213,6 +219,7 @@
         "id": 28,
         "titulo": "Form F.C.",
         "imagen": "/webp/football.webp",
+        "color": "/webp/",
         "descripcion": "Pasión colectiva que une generaciones dentro y fuera del estadio.",
         "imagenesExtras": []
     }
