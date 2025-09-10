@@ -28,7 +28,7 @@ export default function SplashScreen() {
             onClick={() => setIsAnimating(true)}
             onTransitionEnd={handleTransitionEnd}
             className={`
-        fixed inset-0 z-50 flex items-center justify-center bg-black
+        fixed inset-0 z-[999] flex items-center justify-center bg-black
         transform transition-all duration-700 ease-in-out
         ${isAnimating ? '-translate-y-full' : 'translate-y-0'}
       `}
