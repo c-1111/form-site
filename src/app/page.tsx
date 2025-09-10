@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect} from 'react'
 import Card from './components/Card'
 import Overlay from './components/Overlay'
 import Nav from './components/Nav'
@@ -14,6 +14,15 @@ import Contact from './components/Conctact'
 
 export default function Home() {
   const [selectedMarca, setSelectedMarca] = useState<Marca | null>(null)
+
+  useEffect(() => {
+    marcasJson.forEach((marca: Marca) => {
+      if (marca.color) {
+        const img = new Image()
+        img.src = marca.color
+      }
+    })
+  }, [])
 
   function handleCardClick(marca: Marca) {
     setSelectedMarca(marca)

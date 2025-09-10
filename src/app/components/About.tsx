@@ -5,7 +5,7 @@ export default function About() {
         <div className="md:px-12 px-4 md:pb-40">
             <div className="font-sans text-3xl font-semibold mb-8"> Nosotros
             </div>
-            <div className="md:texto-marca md:max-w-[110ch] text-md max-w-[50ch]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, deleniti aliquam. Repellat consequuntur voluptas explicabo fugiat, perferendis ipsa id odit harum aut non delectus dignissimos reprehenderit ipsum, nam, recusandae ad? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, obcaecati quas vitae nulla quibusdam hic, commodi nemo dolorem, animi quasi officiis adipisci expedita dolores ratione eveniet possimus magni necessitatibus incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quaerat earum, delectus numquam natus ipsum distinctio deserunt corrupti tempora. Esse expedita et earum nam animi nostrum modi, nemo unde ullam.</div>
+            <div className="md:texto-marca md:max-w-[110ch] text-md max-w-[50ch]">Form es su consistencia, su capacidad de adaptación y la solidez de sus propuestas. No se trata únicamente de la amplitud de actividades que abarca, sino de la manera en que cada una de ellas ha sabido consolidar un prestigio propio y generar vínculos de confianza sostenidos en el tiempo. La calidad aquí no se entiende solo como un estándar técnico o un atributo aislado, sino como una práctica constante que atraviesa la forma de operar, de relacionarse con sus públicos y de proyectarse hacia el futuro. En conjunto, las marcas de Form representan una combinación de fiabilidad y proyección, capaces de ofrecer las mejores experiencias, productos y servicios.</div>
         </div>
     )
 }
