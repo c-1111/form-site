@@ -6,8 +6,8 @@ import { useState } from "react"
 export default function Navbar() {
     const [open, setOpen] = useState(false)
     return (
-        <div className="wrap flex flex-col items-center">
-            <nav className="fixed top-0 left-0 w-full bg-white shadow z-40">
+        <div className="wrap flex flex-col items-center z-[999]">
+            <nav className="fixed top-0 left-0 w-full bg-white shadow">
                 <div className="flex items-center justify-between max-h-[200px] px-2 md:px-12 py-4">
                     {/* Logo */}
                     <a href="#top" className="scale-75">

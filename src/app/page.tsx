@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect} from 'react'
+import { useState, useEffect } from 'react'
 import Card from './components/Card'
 import Overlay from './components/Overlay'
 import Nav from './components/Nav'
@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <main className="scroll-smooth bg-white overflow-x-hidden" id='top'>
       <SplashScreen />
-      <div className=" flex w-full justify-center"><Nav /></div>
+      <div className=" flex w-full justify-center z-50"><Nav /></div>
       <div id='companies' className="grid grid-cols-1 md:grid-cols-4 items-center justify-center gap-20 pt-20 px-12">
         {marcas.map(marca => (
           <Card key={marca.id} marca={marca} onClick={handleCardClick} />
